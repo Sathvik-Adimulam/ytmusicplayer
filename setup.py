@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="quicksample",                     # This is the name of the package
+    name="ytmusicplayer",                     # This is the name of the package
     version="0.0.1",                        # The initial release version
     author="Sathvik Adimulam",                     # Full name of the author
     description="Plays ",
@@ -16,8 +16,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],                                      # Information to filter the project on PyPi website
-    python_requires='>=3.9',                # Minimum version requirement of the package
-    py_modules=["quicksample"],             # Name of the python package
-    package_dir={'':'quicksample/src'},     # Directory of the source code of the package
+    python_requires='>=3.9',             # Name of the python package
+    package_dir={'':'F:\ytmusicplayer'},     # Directory of the source code of the package
     install_requires=["pytube==12.1.0",  "moviepy==1.0.3", "requests==2.28.1"]                     # Install other dependencies if any
 )
