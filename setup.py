@@ -17,7 +17,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],                                      # Information to filter the project on PyPi website
     python_requires='>=3.9',      
-    py_modules=["ytmusicplayer"]# Name of the python package
+    py_modules=["ytmusicplayer"],# Name of the python package
     package_dir={'':'F:\ytmusicplayer'},     # Directory of the source code of the package
     install_requires=["pytube==12.1.0",  "moviepy==1.0.3", "requests==2.28.1"]                     # Install other dependencies if any
 )
